@@ -2,8 +2,6 @@ package com.mycompany.sistemaclientessql;
 
 import java.sql.*;
 import javax.sql.*;
-
-import java.util.ArrayList;
 import javax.swing.JOptionPane;
 
 
@@ -12,9 +10,6 @@ public class SistemaClientesSQL {
     public static void main(String[] args) {
         
 Connection con = Conexion.conectar();
-
-        ArrayList<Cliente> clientes = new ArrayList<>();
-        ArrayList<Pedido> pedidos = new ArrayList<>();
 
         int opcion = 0;
 

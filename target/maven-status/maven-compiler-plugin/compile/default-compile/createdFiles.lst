@@ -1,0 +1,5 @@
+com\mycompany\sistemaclientessql\SistemaClientesSQL.class
+com\mycompany\sistemaclientessql\Pedido.class
+com\mycompany\sistemaclientessql\Conexion.class
+com\mycompany\sistemaclientessql\Cliente.class
+com\mycompany\sistemaclientessql\Sistema.class

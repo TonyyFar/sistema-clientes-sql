@@ -13,13 +13,13 @@ public class Conexion {
         try {
 
             String url =
-                    "jdbc:sqlserver://localhost:1433;"
+                    "jdbc:sqlserver://localhost:;"
                     + "databaseName=SISCLIENTE1;"
                     + "encrypt=true;"
                     + "trustServerCertificate=true";
 
-            String user = "sa";
-            String password = "aboza27";
+            String user = "";
+            String password = "";
 
             con = DriverManager.getConnection(
                     url,

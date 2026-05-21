@@ -13,8 +13,8 @@ public class Conexion {
         try {
 
             String url =
-                    "jdbc:sqlserver://localhost:;"
-                    + "databaseName=SISCLIENTE1;"
+                    "jdbc:sqlserver://:;"
+                    + "databaseName=;"
                     + "encrypt=true;"
                     + "trustServerCertificate=true";
 
